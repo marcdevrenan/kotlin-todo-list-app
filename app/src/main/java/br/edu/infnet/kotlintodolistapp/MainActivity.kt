@@ -1,5 +1,6 @@
 package br.edu.infnet.kotlintodolistapp
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import androidx.annotation.RequiresApi
@@ -37,6 +38,11 @@ class MainActivity : AppCompatActivity() {
 
         btnDelItem.setOnClickListener {
             toDoSource.deleteItem()
+        }
+
+        btnBack.setOnClickListener {
+            val intent = Intent(this, IntroActivity::class.java)
+            startActivity(intent)
         }
     }
 }
