@@ -39,10 +39,5 @@ class MainActivity : AppCompatActivity() {
         btnDelItem.setOnClickListener {
             toDoSource.deleteItem()
         }
-
-        btnBack.setOnClickListener {
-            val intent = Intent(this, IntroActivity::class.java)
-            startActivity(intent)
-        }
     }
 }
