@@ -1,5 +1,29 @@
 <resources>
     <string name="app_name">KotlinToDoListApp</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    activity_main-->
+    <string name="enter_todo_title">Enter ToDo Title</string>
+    <string name="add_item">Add Item</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <!--    fragment_about-->
+    <string name="about_developer">About Developer</string>
+    <string name="developer_name">Renan Ferreira Marcilio</string>
+    <string name="course">Assessment Fundamentos do Desenvolvimento Kotlin</string>
+    <string name="career">Backend Developer</string>
+    <string name="rate_app">Rate</string>
+    <string name="help">Help</string>
+    <!--    fragment_home-->
+    <string name="intro_text">Before we start, let us know some of your details…</string>
+    <string name="input_name">Name</string>
+    <string name="input_email">Email</string>
+    <string name="start">Start</string>
+    <!--    fragment_intro-->
+    <string name="name_holder">Name</string>
+    <string name="tip_example">Tip of the day…</string>
+    <string name="tip">Random Tip</string>
+    <string name="open_list">Open List</string>
+    <string name="about_info">About Info</string>
+    <!--    todo_item-->
+    <string name="date">MM/dd</string>
+    <string name="todo_text">ToDo Example</string>
 </resources>
